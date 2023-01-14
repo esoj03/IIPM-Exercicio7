@@ -1,0 +1,173 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.conteudo {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.principal {
+  display: grid;
+  grid-template-columns: 449px 200px;
+  margin-top: 40px;
+}
+
+.imagen1 img {
+  width: 350px;
+  height: 340px;
+  display: inline-flex;
+  border-radius: 5%;
+}
+.ydghr p {
+  line-height: 22px;
+}
+
+.ydghr h1 {
+  font-weight: bold;
+}
+
+.ydghr {
+  width: 350px;
+}
+
+.ydghr a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background-color: #087f5b;
+  font-size: 12px;
+  width: 150px;
+  border: 0px;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+.ydghr a:hover {
+  color: black;
+}
+
+.titulo h2 {
+  margin-top: 50px;
+}
+
+.descript p {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.descript .material-symbols-outlined {
+  color: #087f5b;
+  font-weight: 700;
+}
+.descript,
+.descript1 {
+  display: grid;
+  grid-template-columns: 240px 240px 240px;
+  justify-content: space-between;
+}
+
+.descript1 p {
+  line-height: 22px;
+}
+
+.third img {
+  height: 200px;
+  width: 230px;
+  border-radius: 10px;
+}
+
+.third p {
+  width: 485px;
+  font-style: italic;
+  line-height: 24px;
+}
+.third {
+  background-color: #087f5b;
+  display: grid;
+  grid-template-columns: 280px 510px;
+  margin-bottom: 30px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.third p,
+h3 {
+  color: white;
+}
+
+.vendidos h2 {
+  margin-top: 50px;
+}
+.chair {
+  display: flex;
+}
+.chair img {
+  width: 200px;
+}
+
+.chair img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.segundo {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.primeiro,
+.segundo,
+.terceiro {
+  box-shadow: 0 1px 8px rgb(196 196 201 / 55%);
+  border-radius: 10px;
+}
+
+.chair #first,
+#second,
+#third {
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.chair .des1,
+.des2,
+.des3 {
+  margin-left: 20px;
+}
+
+.chair #num,
+#num1,
+#num2 {
+  font-weight: bold;
+}
+
+.chair #link1,
+#link2,
+#link3 {
+  margin-left: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #087f5b;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  font-size: 11px;
+  color: white;
+}
+
+.chair #link3 {
+  margin-left: 43px;
+}
+footer {
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+
+body .linha {
+  border: #087f5b 5px solid;
+  width: 99,9%;
+  margin-top: 50px;
+}
